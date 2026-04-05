@@ -99,7 +99,7 @@ Design and deliver a complete, production-grade analytical solution — from raw
 - ✅ Documented all 9 statistical findings with insights in a dedicated `Statistical_Findings` sheet
 
 **Phase 4 — Power BI Dashboard:**
-- ✅ Applied a fully custom **Credit Sentinel JSON theme** — dark navy background, gold titles, red/blue/green accent system
+- ✅ Applied a fully custom **Credit Sentinel color theme** — manually configured dark navy background (`#0A0E1A`), gold titles (`#F59E0B`), red/blue/green accent system across all 5 pages
 - ✅ Created a dedicated **`_Measures` table** to store all 15 DAX measures — professional BI development standard
 - ✅ Wrote **15 DAX measures** including Default Rate %, Filtered Default Rate (What-If), and Avg Income by status
 - ✅ Created **2 Power Query calculated columns** — `Age_Group` and `LTI_Bucket` — for demographic segmentation
@@ -600,7 +600,7 @@ else "> 40%"
 
 | Feature | Where Used | Business Purpose |
 |---|---|---|
-| Custom JSON Theme | Entire report | Consistent dark finance branding |
+| Custom Color Theme | Entire report | Manually configured dark finance branding (navy, gold, red, blue, green) |
 | `_Measures` Table | All pages | Professional measure organization |
 | Drill Through | Page 2 → Page 3 | Grade-level investigation on right-click |
 | Custom Tooltip (Page 1) | Loan Intent Chart | Hover shows intent's grade breakdown |
@@ -689,7 +689,6 @@ else "> 40%"
 credit-risk-loan-default-analysis/
 │
 ├── 📊 Credit_Risk_Dashboard.pbix       # Power BI Dashboard File
-├── 🎨 CreditSentinel_Theme.json        # Custom Power BI Theme
 ├── 📄 README.md                        # This file
 │
 ├── 📁 data/
@@ -721,17 +720,15 @@ credit-risk-loan-default-analysis/
 
 ## 🚀 How to Explore This Project
 
-### Option 1 — View Live Dashboard (Recommended)
-🔗 **[Open Live Dashboard](YOUR_POWERBI_PUBLISH_LINK_HERE)**
-> No installation required. Opens in any browser.
-
-### Option 2 — Open in Power BI Desktop
+### Option 1 — Open in Power BI Desktop (Recommended)
 1. **Download** `Credit_Risk_Dashboard.pbix` from this repository
 2. **Install** Power BI Desktop (free) at [powerbi.microsoft.com](https://powerbi.microsoft.com/en-us/desktop/)
 3. **Open** the `.pbix` file
 4. **Explore** all 5 pages
 
-### Option 3 — Explore the Data Yourself
+> 💡 Power BI Desktop is completely free to download and use. No account required to view the dashboard.
+
+### Option 2 — Explore the Data Yourself
 1. Download `credit_risk_cleaned.csv`
 2. Open in Excel or connect to your SQL database
 3. Run the queries from `sql/credit_risk_analysis.sql`
@@ -772,20 +769,8 @@ credit-risk-loan-default-analysis/
 **Ayush Singh**
 *Data Analytics Student @ PW Skills*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](YOUR_GITHUB_URL)
-[![Power BI](https://img.shields.io/badge/Live%20Dashboard-View%20Now-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](YOUR_POWERBI_URL)
-
----
-
-## 🗂️ Other Projects in My Portfolio
-
-| Project | Tools | Description |
-|---|---|---|
-| [Netflix Content Strategy Dashboard](YOUR_NETFLIX_REPO_LINK) | Power BI | 5-page content analytics dashboard with RLS, Bookmarks, YoY Intelligence |
-| [Blinkit Grocery Sales Dashboard](YOUR_BLINKIT_REPO_LINK) | Power BI | Grocery sales performance KPI dashboard |
-| [Swiggy Sales Analysis](YOUR_SWIGGY_REPO_LINK) | Excel | Restaurant sales trend and performance analysis |
-| [Vrinda Store Annual Report](YOUR_VRINDA_REPO_LINK) | Excel | Annual retail sales report with pivot analysis |
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayush-singh-finance)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/as764994-droid)
 
 ---
 
